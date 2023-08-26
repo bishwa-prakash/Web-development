@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="chat.png" height="68" width="68" />
+      <h1>Today I learned</h1>
+    </header>
+    <form>
+      <input type="text" placeholder="Share afact with world..." />
+      <span>200</span>
+      <input type="text" placeholder="Trustworthy source" />
+      <select>
+        <option value="">Choose category</option>
+        <option value="technology">Technology</option>
+        <option value="science">Science</option>
+        <option value="finance">Finance</option>
+      </select>
+      <button>Post</button>
+    </form>
+    <main>
+      <aside>
+        <ul>
+          <li><button>All</button></li>
+          <li><button>Technology</button></li>
+          <li><button>Science</button></li>
+        </ul>
+      </aside>
+
+      <section>
+        <ul>
+          <li>
+            <p class="fact">
+              React is being developed by Meta (formerly Facebook)
+              <a href="https://opensource.fb.com/">(source)</a>
+              <span class="tag">#technology#</span>
+            </p>
+            <div>
+              <button>👍<strong>24</strong></button>
+              <button>😇<strong>9</strong></button>
+              <button>⛔<strong>4</strong></button>
+            </div>
+          </li>
+          <li>
+            <p class="fact">
+              Millemnial dads spend 3 time as much time with thier kids than
+              their fathers spent with them.
+            </p>
+            <a href="https://app.netlify.com/teams/bishwa-prakash/overview"
+              >(source)</a
+            >
+            <span class="tag">#society#</span>
+            <div>
+              <button>👍<strong>28</strong></button>
+              <button>😇<strong>2</strong></button>
+              <button>⛔<strong>0</strong></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
